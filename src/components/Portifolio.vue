@@ -1,64 +1,54 @@
 <template>
     <div class="container-port">
-        <div class="fadeInUp animated">
-            <div class="title">
-                <h1>Projetos</h1>
-            </div>
+        
+        <nav-bar title="Projetos" />
 
-            <div class="projects">
-                <div class="card">
+        <div class="projects">
+            <div v-for="item in list" :key="item.id" class="card">
 
-                    <div class="card-cover">
-
-                    </div>
-
-                    <div class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </div>
+                <div class="card-cover">
 
                 </div>
-                <div class="card">
 
-                    <div class="card-cover">
-
-                    </div>
-
-                    <div class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </div>
-
+                <div class="card-text">
+                    {{ item.description }}
                 </div>
-                <div class="card">
 
-                    <div class="card-cover">
-
-                    </div>
-
-                    <div class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </div>
-
-                </div>
             </div>
         </div>
+
     </div>
 </template>
 
 <script>
+import Nav from './Nav'
 
 export default {
     components: {
-
+        'nav-bar': Nav
+    },
+    data () {
+        return {
+            list: [
+                {
+                    id: 0,
+                    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+                },
+                {
+                    id: 1,
+                    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+                },
+                {
+                    id: 2,
+                    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+                }
+            ]
+        }
     }
 }
 </script>
 
 <style>
-
-.title {
-    text-align: center;
-    padding: 15px;
-}
 
 .projects {
     width: 100%;

@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.content {
+    
+}
+.text h1 {
+    font-weight: 400;
+    font-size: 7vw;
+}
+
+.content-img {
+    width: 200px;
+}
+.nav {
+    margin-top: 30px;
+    text-align: center;
+}
+.link {
+    cursor: pointer;
+    font-weight: bold;
+    color: brown;
+}
+.tech {
+    color: dodgerblue; 
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
