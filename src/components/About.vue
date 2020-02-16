@@ -3,10 +3,10 @@
         <nav-bar title="Sobre" />
 
         <div class="about-text">
-            <p>Olá, meu nome é João Aires, sou formado em análise e desnvolvimento de sistemas (Uninter) e trabalho como desenvolvedor web e mobile. Tenho experiência com php, framework laravel, bancos de dados redis e mysql para manutenção, desenvolvimento e consumo de api's REST, html, css, javascript, bibliotecas Vue,Vuex para desenvolvimento e manutenção de interfaces. No desenvolvimento mobile trabalho com React, React Native e Redux.</p>
+            <p>Olá, meu nome é João Aires, sou formado em análise e desenvolvimento de sistemas (Uninter) e trabalho como desenvolvedor web e mobile. Tenho experiências com php, laravel framework, bancos de dados redis e mysql atuando no desenvolvimento, manutenção e consumo de api's REST. Html, css, javascript, bibliotecas Vue,Vuex e React para desenvolvimento e manutenção de interfaces. No desenvolvimento mobile trabalho com React Native.</p>
         </div>
         <div class="about-tech">
-            <p>Backend: <span class="php">PHP</span>, framework <span class="laravel">Laravel</span>.</p>
+            <p>Backend: <span class="php">PHP</span>, <span class="laravel">Laravel</span> framework.</p>
             <p>Bancos de dados: <span class="redis">Redis</span>, <span class="mysql">MySql</span>.</p>
             <p>Frontend: <span class="html">Html</span>, <span class="css">Css</span>, <span class="js">JavaScript</span>, bibliotecas <span class="vue">Vue</span>, <span class="vue">Vuex</span>, <span class="react">React</span>, <span class="react">React Native</span> e <span class="redux">Redux</span>.</p>
             <p>Versionamento de software: <span class="git">Git</span>.</p>
