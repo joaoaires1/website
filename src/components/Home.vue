@@ -1,19 +1,19 @@
 <template>
     <div class="container">
-        <div class="jackInTheBox animated content">
-
-            <div class="text">
+        <div class="content">
+            <div class="presentation-section">
                 <div>
-                    <p>Olá! Eu sou João Aires,</p>
-                </div>
-                <div>
-                    <h1>Desenvolvedor <span class="tech">Web</span></h1>
-                </div>
-                <div class="nav">
-                    <p><span class="link" @click="navigate('projects')">Projetos</span> - <span class="link" @click="navigate('about')">Sobre</span> - <span class="link"><a href="https://github.com/joaoaires1" target="_blank">GitHub</a></span> - <span class="link"><a href="https://www.linkedin.com/in/joaoaires1/" target="_blank" >Linkedin</a></span></p>
+                    <h1>Hello, i'm João</h1>
+                    <p>Software developer</p>
                 </div>
             </div>
-            
+
+            <div class="links-section">
+                <span><a href="https://www.linkedin.com/in/joaoaires1/" target="_blank">Linkedin</a></span>
+                <span><a href="https://github.com/joaoaires1" target="_blank">GitHub</a></span>
+<!--                <span @click="navigate('projects')">Projects</span>-->
+<!--                <span @click="navigate('about')">About</span>-->
+            </div>
         </div>
     </div>
 </template>
